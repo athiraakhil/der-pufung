@@ -1,11 +1,11 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import HomeView from '../views/HomeView.vue'
+import QuestionMakerPage from '../views/QuestionMakerPage.vue'
 
 const routes = [
   {
-    path: '/',
+    path: '/makequestion',
     name: 'home',
-    component: HomeView
+    component: QuestionMakerPage
   },
   {
     path: '/about',
